@@ -1,0 +1,4 @@
+# Anchor / Solana BPF builds need a recent stable Rust; edition2024 deps require Cargo ≥ ~1.85.
+[toolchain]
+channel = "1.85"
+profile = "minimal"
