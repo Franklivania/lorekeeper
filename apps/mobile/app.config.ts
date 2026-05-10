@@ -8,6 +8,7 @@ const defineConfig = (): ExpoConfig => ({
   orientation: "portrait",
   userInterfaceStyle: "dark",
   backgroundColor: "#0A0A0F",
+  owner: "franklivania",
   icon: "./assets/images/icon.png",
   splash: {
     image: "./assets/images/splash.png",
@@ -39,7 +40,7 @@ const defineConfig = (): ExpoConfig => ({
   ],
   extra: {
     eas: {
-      projectId: process.env.EAS_PROJECT_ID,
+      projectId: "80dd5124-c632-426b-8cd6-f6d6dec7e480",
     },
     router: {},
   },

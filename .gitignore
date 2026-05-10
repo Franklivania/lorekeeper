@@ -24,3 +24,6 @@ yarn.lock
 # Solana keypair files (never commit)
 wallets/*.json
 wallets/*.key
+
+# Local hackathon submission draft (do not commit)
+DEV3PACK_SUBMISSION.md

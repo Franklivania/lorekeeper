@@ -39,8 +39,17 @@ Fill every variable — see `.env.example` at root for the full reference.
 
 ## 3. Solana / Anchor setup
 
+**Rust / Cargo:** This repo pins toolchain via `rust-toolchain.toml` (`stable`). Anchor pulls crates whose manifests require a **recent Cargo** (not 1.84.x). Before building:
+
 ```bash
-# Generate a local keypair for development
+rustup update stable
+cargo --version   # expect Cargo ≥ 1.85 after update
+```
+
+If `cargo --version` is still old, run `rustup self update` then `rustup update stable` again.
+
+```bash
+# Generate a local keypair for development (or copy into wallets/ — see wallets/README.md)
 solana-keygen new --outfile ~/.config/solana/id.json
 
 # Set cluster to devnet
@@ -49,11 +58,8 @@ solana config set --url devnet
 # Airdrop SOL for deployment fees
 solana airdrop 2
 
-# Build the program
-cd programs/lorekeeper
+# Build + deploy from monorepo root (Anchor.toml lives here)
 anchor build
-
-# Deploy to devnet
 anchor deploy
 
 # Copy the program ID into Anchor.toml and .env
