@@ -1,0 +1,22 @@
+{
+  "name": "lorekeeper",
+  "private": true,
+  "packageManager": "bun@1.2.19",
+  "workspaces": ["apps/*", "packages/*", "server"],
+  "scripts": {
+    "dev": "turbo run dev --filter=server --filter=mobile",
+    "build": "turbo run build --filter=server --filter=mobile --filter=@lorekeeper/solana-idl",
+    "build:android": "turbo run build:android --filter=mobile",
+    "deploy:program": "anchor deploy",
+    "db:migrate": "bun --filter server db:migrate",
+    "lint": "turbo run lint --filter=server --filter=mobile --filter=@lorekeeper/solana-idl",
+    "type-check": "turbo run type-check --filter=server --filter=mobile --filter=@lorekeeper/solana-idl",
+    "format": "prettier --write .",
+    "env:seed": "bun scripts/seed-env.ts"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.4",
+    "typescript": "~5.9.2"
+  }
+}

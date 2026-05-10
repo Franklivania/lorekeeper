@@ -1,0 +1,26 @@
+# Dependencies / OS
+node_modules/
+.turbo/
+dist/
+apps/mobile/web-build/
+apps/mobile/.expo/
+
+# Tooling
+coverage/
+
+# Environment — never commit secrets
+.env
+.env.local
+*.env.local
+global.env.local
+apps/mobile/.env
+server/.env
+
+# Wrong package managers for this repo
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Solana keypair files (never commit)
+wallets/*.json
+wallets/*.key

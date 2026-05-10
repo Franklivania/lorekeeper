@@ -1,0 +1,11 @@
+{
+  "id": "mechara",
+  "title": "Mechara",
+  "tagline": "Precision carved into lightning.",
+  "tone": "industrial",
+  "palette": {
+    "primary": "#185FA5",
+    "secondary": "#85B7EB",
+    "background": "#0D1420"
+  }
+}

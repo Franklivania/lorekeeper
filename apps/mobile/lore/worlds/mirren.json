@@ -1,0 +1,11 @@
+{
+  "id": "mirren",
+  "title": "Mirren",
+  "tagline": "Echoes wear faces here.",
+  "tone": "biotic",
+  "palette": {
+    "primary": "#3B6D11",
+    "secondary": "#97C459",
+    "background": "#0C1209"
+  }
+}

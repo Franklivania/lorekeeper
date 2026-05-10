@@ -1,0 +1,2 @@
+-- Numbered migrations placeholder.
+-- Apply schema via: `bun --filter server db:migrate` (runs schema.sql).

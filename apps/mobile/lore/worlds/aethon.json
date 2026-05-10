@@ -1,0 +1,11 @@
+{
+  "id": "aethon",
+  "title": "Aethon",
+  "tagline": "Where vow ink burns brightest.",
+  "tone": "arcane",
+  "palette": {
+    "primary": "#3C3489",
+    "secondary": "#AFA9EC",
+    "background": "#12101E"
+  }
+}

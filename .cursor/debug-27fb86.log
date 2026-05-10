@@ -1,0 +1,2 @@
+{"sessionId":"27fb86","location":"instrument-crypto.ts","message":"startup crypto probe (before layout tree)","data":{"hasCrypto":false,"hasGRV":false},"timestamp":1778388590606,"hypothesisId":"H1-emulator-host"}
+{"sessionId":"27fb86","runId":"post-fix","location":"instrument-crypto.ts","message":"startup crypto probe after react-native-get-random-values","data":{"hasCrypto":true,"hasGRV":true},"timestamp":1778388854795,"hypothesisId":"H1-verify-emulator-host"}

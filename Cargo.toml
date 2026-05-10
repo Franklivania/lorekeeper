@@ -1,0 +1,7 @@
+[workspace]
+members = ["programs/lorekeeper"]
+resolver = "2"
+
+# Required by Anchor (release builds enable overflow checks)
+[profile.release]
+overflow-checks = true

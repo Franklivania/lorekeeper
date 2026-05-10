@@ -1,0 +1,11 @@
+{
+  "id": "khoras",
+  "title": "Khoras",
+  "tagline": "Ash remembers every oath.",
+  "tone": "volcanic",
+  "palette": {
+    "primary": "#993C1D",
+    "secondary": "#F0997B",
+    "background": "#140C08"
+  }
+}

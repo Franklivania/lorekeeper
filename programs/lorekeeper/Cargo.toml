@@ -1,0 +1,19 @@
+[package]
+name = "lorekeeper"
+version = "0.1.0"
+description = "LoreKeeper Solana program (Anchor)"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "lorekeeper"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.30.1"

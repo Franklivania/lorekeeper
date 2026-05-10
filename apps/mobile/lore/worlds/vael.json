@@ -1,0 +1,11 @@
+{
+  "id": "vael",
+  "title": "Vael",
+  "tagline": "Shape forgets its sculptor.",
+  "tone": "fluid",
+  "palette": {
+    "primary": "#7B4397",
+    "secondary": "#E7C8FF",
+    "background": "#110B14"
+  }
+}
